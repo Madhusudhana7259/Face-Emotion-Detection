@@ -1,7 +1,7 @@
-Project Title
+##Project Title
 Face Detection
 
-Description
+##Description
 This project focuses on detecting human faces in images using computer vision techniques and deep learning models. It leverages a MobileNet architecture for efficient detection and employs various image processing operations to enhance detection capabilities.
 Table of Contents
 1. [Introduction](#introduction)
