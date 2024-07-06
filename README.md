@@ -1,9 +1,10 @@
-##Project Title
-Face Detection
+### Project Title
+**Face Detection**
 
-##Description
+### Description
 This project focuses on detecting human faces in images using computer vision techniques and deep learning models. It leverages a MobileNet architecture for efficient detection and employs various image processing operations to enhance detection capabilities.
-Table of Contents
+
+### Table of Contents
 1. [Introduction](#introduction)
 2. [Architecture and Techniques](#architecture-and-techniques)
 3. [Installation](#installation)
@@ -60,7 +61,3 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 ### License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
-Feel free to adjust the sections and details further based on your specific implementation and any additional techniques or features you may have incorporated.
