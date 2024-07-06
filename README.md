@@ -1,5 +1,5 @@
 ### Project Title
-**Face Detection**
+**Face Emotion Detection**
 
 ### Description
 This project focuses on detecting human faces in images using computer vision techniques and deep learning models. It leverages a MobileNet architecture for efficient detection and employs various image processing operations to enhance detection capabilities.
