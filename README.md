@@ -1,8 +1,8 @@
 ### Project Title
-**Face Emotion Detection**
+**Real-time Face Emotion Detection**
 
 ### Description
-This project focuses on detecting human faces in images using computer vision techniques and deep learning models. It leverages a MobileNet architecture for efficient detection and employs various image processing operations to enhance detection capabilities.
+This project focuses on real-time detection and recognition of emotions from human faces using computer vision techniques and deep learning models. It utilizes a MobileNet architecture for efficient face detection and emotion recognition, leveraging the camera feed to provide instantaneous feedback on detected emotions.
 
 ### Table of Contents
 1. [Introduction](#introduction)
@@ -14,14 +14,14 @@ This project focuses on detecting human faces in images using computer vision te
 7. [License](#license)
 
 ### Introduction
-The Face Detection project utilizes computer vision to detect human faces within images. It is designed to be robust and efficient, capable of detecting faces under various conditions and orientations.
+The Real-time Emotion Detection from Faces project aims to detect and recognize emotions such as happiness, sadness, anger, and more from live camera feeds. It integrates face detection with emotion recognition, providing instantaneous feedback on the emotional state of individuals in front of the camera.
 
 ### Architecture and Techniques
-The project employs the following architecture and techniques:
-- **MobileNet Architecture**: Specifically chosen for its lightweight and efficient characteristics, making it suitable for real-time face detection on mobile and embedded devices.
-- **Convolutional Neural Networks (CNNs)**: Utilized within the MobileNet architecture for feature extraction and detection.
-- **Image Processing**: Techniques such as image resizing, normalization, and augmentation to preprocess images for better detection accuracy.
-- **Face Detection Algorithms**: Implementation of algorithms like Haar Cascades or more advanced deep learning models for face detection.
+The project utilizes the following architecture and techniques:
+- **MobileNet Architecture**: Chosen for its lightweight and efficient characteristics, ideal for real-time face detection and emotion recognition on mobile and embedded devices.
+- **Convolutional Neural Networks (CNNs)**: Embedded within the MobileNet architecture for face detection and feature extraction.
+- **Emotion Recognition**: Utilizes deep learning models trained on datasets to classify facial expressions into predefined emotions.
+- **Real-time Processing**: Processes camera frames in real-time to detect faces and analyze facial expressions.
 
 ### Installation
 To run this project, ensure you have Python and the necessary libraries installed.
@@ -44,17 +44,16 @@ To run this project, ensure you have Python and the necessary libraries installe
     ```
 
 ### Usage
-After setting up the environment, you can use the main script to detect faces in images:
+After setting up the environment, you can use the main script to detect faces and analyze emotions in real-time:
 ```bash
-python detect_faces.py --image path/to/your/image.jpg
+python detect_emotions.py
 ```
-Replace `path/to/your/image.jpg` with the path to the image you want to analyze for face detection.
+Ensure your camera is connected and positioned to capture faces. The script will display live feedback on detected emotions.
 
 ### Operations on Images
-The project includes various operations on images to enhance face detection accuracy:
-- **Preprocessing**: Image resizing, normalization, and enhancement.
-- **Augmentation**: Data augmentation techniques to increase the diversity of training data.
-- **Post-processing**: Filtering and refining detected faces for better presentation.
+The project includes various operations on images to enhance emotion detection accuracy:
+- **Preprocessing**: Image resizing, normalization, and enhancement for better emotion recognition.
+- **Real-time Feedback**: Provides instantaneous feedback on detected emotions from live camera feeds.
 
 ### Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any improvements or new features.
